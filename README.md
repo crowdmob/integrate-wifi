@@ -28,4 +28,6 @@ This contains several macros (dynamic values) that need to be replaced by the Wi
 
 Example:
 ==============
-`http://crave.crowdmob.com/incoming?source_name=thechicagometro&device_uuid_type=mac_address&device_uuid=11:11:11:11:11&access_point_uuid=lobby-1&next=http:%2F%2Fthechicagometro.weebly.com&no_ads=http:%2F%2Fthechicagometro.weebly.com`
+<pre>
+http://crave.crowdmob.com/incoming?source_name=thechicagometro&device_uuid_type=mac_address&device_uuid=11:11:11:11:11&access_point_uuid=lobby-1&next=http:%2F%2Fthechicagometro.weebly.com&no_ads=http:%2F%2Fthechicagometro.weebly.com
+</pre>
