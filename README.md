@@ -3,12 +3,18 @@ Wi-Fi Captive Portal Integration
 
 Here's how to integrate our platform onto your Wi-Fi access point.
 
-From your Wi-Fi's administration console, go to the section where you input the 
+From your Wi-Fi's administration console, go to the section where you input the thank you page redirection url.  Copy and paste the following URL in it, and that's it!
 
+URL Format
+==============
 
-Here's the URL format we integrate:
+Here's the URL format we integrate, below.
 
-`http://crave.crowdmob.com/incoming?source_name={WIFI_PARTNER_ID}&device_uuid_type=mac_address&device_uuid={SMARTPHONEORTABLET_MAC_ADDRESS}&access_point_uuid={STRING_UNIQUELY_IDENTIFYING_ACCESSPOINT}&next={NO_THANKS_REDIRECT_URL}&no_ads={CROWDMOB_NO_INVENTORY_REDIRECT_URL}`
+<pre>
+http://crave.crowdmob.com/incoming?source_name={WIFI_PARTNER_ID}&device_uuid_type=mac_address&device_uuid={SMARTPHONEORTABLET_MAC_ADDRESS}&access_point_uuid={STRING_UNIQUELY_IDENTIFYING_ACCESSPOINT}&next={NO_THANKS_REDIRECT_URL}&no_ads={CROWDMOB_NO_INVENTORY_REDIRECT_URL}
+</pre>
+
+This contains several macros (dynamic values) that need to be replaced by the Wi-Fi access point.  The macro formats very by type of Wi-Fi hardware, so you'll have to look at the manual for your version of Access Point to substitute the correct values. 
 
 `{WIFI_PARTNER_ID}` - Provided by CrowdMob account manager; this would be `thechicagometro`, for the Chicago Metro Downtown Crowne Plaza
 
